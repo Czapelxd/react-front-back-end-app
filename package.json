@@ -1,0 +1,45 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "react fornt/back-end app",
+  "main": "index.js",
+  "scripts": {
+      "start": "nodemon --exec babel-node server.js --ignore public/"
+      "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Czapelxd/react-front-back-end-app.git"
+  },
+  "keywords": [
+    "reack",
+    "frontend",
+    "backend",
+    "rookie",
+    "app"
+  ],
+  "author": "Michał Czaplicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Czapelxd/react-front-back-end-app/issues"
+  },
+  "homepage": "https://github.com/Czapelxd/react-front-back-end-app#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.10",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.9.1",
+    "nodemon": "^1.17.5",
+    "webpack": "^4.12.0"
+  }
+}
