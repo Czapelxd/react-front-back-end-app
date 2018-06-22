@@ -5,7 +5,7 @@ const ContestPreview = (contest) => (
         <div className={"category-name"}>
             {contest.categoryName}
         </div>
-        <div className={"category-name"}>
+        <div className={"contest-name"}>
             {contest.contestName}
         </div>
     </div>
