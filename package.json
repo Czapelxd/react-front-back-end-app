@@ -4,8 +4,8 @@
   "description": "react fornt/back-end app",
   "main": "index.js",
   "scripts": {
-      "start": "nodemon --exec babel-node server.js --ignore public/",
-      "dev": "webpack -wd"
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Czapelxd/react-front-back-end-app#readme",
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
     "mongodb": "^3.0.10",
     "react": "^16.4.1",
